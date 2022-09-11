@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="container-fluid">
+  <main>
+    <div class="balance">
+      <p>My balance</p>
+      <h1>$921.48</h1>
+    </div>
+    <div class="spending">
+      <h2> Spending - Last 7 days </h2>
+      <div class="data">
+        <div class="numbers">
+          <p class="num1 viz"></p>
+          <p class="num2 viz"></p>
+          <p class="num3 viz"></p>
+          <p class="num4 viz"></p>
+          <p class="num5 viz"></p>
+          <p class="num6 viz"></p>
+          <p class="num7 viz"></p>
+        </div>       
+        <div id="days">
+          <div class="mon"></div>
+          <div class="tue"></div>
+          <div class="wed"></div>
+          <div class="thu"></div>
+          <div class="fri"></div>
+          <div class="sat"></div>
+          <div class="sun"></div>
+        </div>
+        <div class="week">
+          <p>mon</p>
+          <p>tue</p>
+          <p>wed</p>
+          <p>thu</p>
+          <p>fri</p>
+          <p>sat</p>
+          <p>sun</p>
+        </div>
+      </div>
+      <hr>
+      <section>
+        <div>
+          <p>Total this month</p>
+          <span>$478.33</span>
+        </div>
+        <div>
+          <p class="percent">+2.4%</p>
+          <p>from last month</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
