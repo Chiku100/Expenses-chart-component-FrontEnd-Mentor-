@@ -172,7 +172,7 @@ section div:last-child {
 }
 
 @media screen and (max-width:600px) {
-    body {
+    body {margin:0;
         max-width: 375px;
         flex-direction: column;
     }
@@ -186,10 +186,16 @@ section div:last-child {
     }
 
     .balance {
-        background-position: right;
+        background-position: 15rem;
     }
 
     span {
         font-size: 2rem;
+    }
+       .spending{
+        padding: 1rem;
+    }.numbers p {
+        font-size: 13px;
+        padding: 1px;
     }
 }
